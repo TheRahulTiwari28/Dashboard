@@ -510,7 +510,7 @@ body{
         z-index: 1000;
     }
     .navigation.active{
-        width: 50%;
+        width: 100%;
         left: 0;
         overflow: hidden;
     }
@@ -522,6 +522,6 @@ body{
         right: 220px;
         top: 0;
         left: initial;
-        color: rgb(0, 0, 0);
+        color: #fff;
     }
 }
