@@ -510,16 +510,18 @@ body{
         z-index: 1000;
     }
     .navigation.active{
-        width: 100%;
+        width: 50%;
         left: 0;
+        overflow: hidden;
     }
     .toggle{
         z-index: 10001;
     }
     .main.active .toggle{
         position: fixed;
-        right: 0;
+        right: 220px;
+        top: 0;
         left: initial;
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
 }
